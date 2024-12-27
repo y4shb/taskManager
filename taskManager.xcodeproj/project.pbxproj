@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		107F6D602D199C0F001A9B4B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107F6D5F2D199C0F001A9B4B /* Task.swift */; };
+		107F6D622D19A056001A9B4B /* TaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107F6D612D19A056001A9B4B /* TaskGroup.swift */; };
+		107F6D642D19A360001A9B4B /* TaskSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107F6D632D19A360001A9B4B /* TaskSection.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		107F6D402D199AA9001A9B4B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +33,9 @@
 		107F6D2E2D199AA8001A9B4B /* taskManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taskManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		107F6D3F2D199AA9001A9B4B /* taskManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taskManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		107F6D492D199AA9001A9B4B /* taskManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taskManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		107F6D5F2D199C0F001A9B4B /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		107F6D612D19A056001A9B4B /* TaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroup.swift; sourceTree = "<group>"; };
+		107F6D632D19A360001A9B4B /* TaskSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -79,6 +88,7 @@
 				107F6D422D199AA9001A9B4B /* taskManagerTests */,
 				107F6D4C2D199AA9001A9B4B /* taskManagerUITests */,
 				107F6D2F2D199AA8001A9B4B /* Products */,
+				107F6D5E2D199BDE001A9B4B /* Model */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +100,16 @@
 				107F6D492D199AA9001A9B4B /* taskManagerUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		107F6D5E2D199BDE001A9B4B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				107F6D5F2D199C0F001A9B4B /* Task.swift */,
+				107F6D612D19A056001A9B4B /* TaskGroup.swift */,
+				107F6D632D19A360001A9B4B /* TaskSection.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +256,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				107F6D602D199C0F001A9B4B /* Task.swift in Sources */,
+				107F6D642D19A360001A9B4B /* TaskSection.swift in Sources */,
+				107F6D622D19A056001A9B4B /* TaskGroup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
