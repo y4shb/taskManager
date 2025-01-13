@@ -23,9 +23,9 @@ struct ContentView: View {
             case .all:
                 TaskListView(title: "All", tasks: allTasks)
             case .done:
-                TaskListView(title: "All", tasks: allTasks.filter({$0.IsCompleted}))
+                TaskListView(title: "All", tasks: allTasks.filter({ $0.IsCompleted }))
             case .upcoming:
-                TaskListView(title: "All", tasks: allTasks.filter({!$0.IsCompleted}))
+                TaskListView(title: "All", tasks: allTasks.filter({ !$0.IsCompleted }))
             case .list(let taskGroup):
                 TaskListView(title: taskGroup.title, tasks: taskGroup.tasks)
             }
